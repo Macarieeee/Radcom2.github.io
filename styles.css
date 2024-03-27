@@ -1,0 +1,53 @@
+.main-color{
+    color: #1c3c92!important;
+}
+
+.hover-effect :hover{
+    background-color: whitesmoke!important;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+.main-background-color{
+    background-color: #1c3c92!important;
+}
+
+
+.ser-inner::before{
+    background-color:#1c3c92!important ;
+}
+
+.heightz{
+    height: 40px!important;
+}
+
+.widths{
+    width: 100rem!important;
+    justify-content: space-between!important;
+    padding-left: 10rem!important;
+}
+
+.slider{
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.slider .slide-track{
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slider .slide{
+    height: 100px;
+    width: 250px;
+    padding-top: 100px
+}
